@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+/* HEADER */
+header{
+    background-color: #2c8391;
+}
+.header{
+    display: flex;
+    padding: 20px 10px; 
+    margin: 20px 0;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.nav {
+  text-align: center;
+}
+ul.nav > li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#logo{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul.nav > li > a {
+  color: white;
+  /* text-decoration: none; */
+ 
+}
+ul#logo > li > a {
+  color: white;
+  font-weight: 400;
+  opacity: 1;
+}
+ul.nav > li > a > span{
+  font-weight: bold;
+}
+
+/* MAIN */
+.main{
+    width: 300px;
+    margin: 10px auto;
+}
+#login_page, #info_page{
+    display: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+
+}
+.box > label{
+    margin: 5px 0;
+    font-style: italic;
+}
+input{
+    height: 20px;
+}
+select{
+    height: 30px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #00008b;
+    color: white;
+    border: transparent;
+}
+.user_info{
+    font-weight: 18px;
+    font-weight: bold;
+}

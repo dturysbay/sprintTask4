@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header">    
+            <div href="#" id="logo">TWITTER</div>
+            <ul class="nav">
+                <li><a href="#" id="nav_tweets"></a>Tweets</li>
+                <li><a href="#" id="nav_login"></a>Login</li>
+                <li><a href="#" id="nav_register"></a>Register</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="main" id="reg_page">
+            <div class="box">
+                <label for="email">EMAIL:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="box">
+                <label for="password">PASSWORD:</label>
+                <input type="password" name="password" id="password">
+            </div>
+           <div class="box">
+                <label for="full_name">FULL NAME:</label>
+                <input type="text" name="full_name" id="full_name">
+           </div>
+
+            <div class="box">
+                <label for="country">COUNTRY:</label>
+                <select name="country" id="country">
+                    <option value="KAZ">Kazakhstan</option>
+                    <option value="USA">USA</option>
+                    <option value="CHN">P.R.China</option>
+                </select>
+            </div>
+            <div class="box">
+                <label for="date">BIRTHDATE</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <button id="reg_button">Register</button>
+        </div>
+        <div class="main" id="login_page">
+            <div class="box">
+                <label for="email">EMAIL:</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="box">
+                <label for="password">PASSWORD:</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <button id="sign_in_button">Sign in</button>
+        </div>
+
+        <div class="main" id="info_page">
+            <h1 id="user_name"></h1>
+            <div class="box">
+                <label for="user_email">EMAIL:</label>
+                <p class="user_info" id="user_email"></p>
+            </div>
+            <div class="box">
+                <label for="user_full_name">FULL NAME:</label>
+                <p class="user_info" id="user_full_name"></p>
+            </div>
+            <div class="box">
+                <label for="user_country">COUNTRY:</label>
+                <p class="user_info" id="user_country"></p>
+            </div>
+            <div class="box">
+                <label for="user_birthdate">BIRTHDATE</label>
+                <p class="user_info" id="user_birthdate"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
